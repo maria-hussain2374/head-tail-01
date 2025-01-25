@@ -1,0 +1,78 @@
+body {
+    background-image: url(./istockphoto-1200710460-612x612.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    background-color: burlywood;
+    max-width: 80%;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    border: 5px solid purple;
+  }
+  
+  button {
+    width: 20%;
+    height: 40px;
+    display: flex;
+    margin-top: 20px;
+    color: brown;
+    background-color: rgb(14, 172, 220);
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container:hover {
+    background-color: bisque;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 20px;
+  }
+  
+  /* Media Queries for Small Screens */
+  
+  @media only screen and (max-width: 768px) {
+    .container {
+      max-width: 90%;
+      margin: 10% auto;
+    }
+    button {
+      width: 30%;
+      height: 30px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .container {
+      max-width: 95%;
+      margin: 15% auto;
+    }
+    button {
+      width: 40%;
+      height: 20px;
+    }
+  }
+  
+  @media only screen and (max-width: 320px) {
+    .container {
+      max-width: 98%;
+      margin: 20% auto;
+    }
+    button {
+      width: 50%;
+      height: 15px;
+    }
+  }
+  
+  
+  
+    
